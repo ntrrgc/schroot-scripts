@@ -1,0 +1,10 @@
+___SCHROOT_CONFIG_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+
+# Filesystems to mount inside the chroot.
+FSTAB="$___SCHROOT_CONFIG_DIR/fstab"
+
+# Files to copy from the host system into the chroot.
+COPYFILES="$___SCHROOT_CONFIG_DIR/copyfiles"
+
+# System NSS databases to copy into the chroot.
+NSSDATABASES="$___SCHROOT_CONFIG_DIR/nssdatabases"
