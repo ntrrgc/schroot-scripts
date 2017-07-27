@@ -8,15 +8,15 @@ These are a few scripts I use for creating and installing schroot environments.
 
 3. Use debootstrap to install something Debian-based.
 
-        sudo debootstrap --arch=amd64 stretch $PWD/chroot http://ftp.fr.debian.org/debian/
+       sudo debootstrap --arch=amd64 stretch $PWD/chroot http://ftp.fr.debian.org/debian/
 
 4. Install the profile in `/etc/schroot`.
 
-        ./install.sh
+       ./install.sh
 
 5. Give a look at `typical-chroot-setup.sh`, modify it accordingly and run it (outside the chroot) in order to have something more usable.
 
-        ./typical-chroot-setup.sh
+       ./typical-chroot-setup.sh
 
 ## Usage
 
