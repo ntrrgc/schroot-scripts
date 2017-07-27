@@ -36,15 +36,14 @@ locale-gen
 
 # Install my beloved dotfiles
 sudo -u ntrrgc bash << USER
-
-set -eu
-cd
-if [ ! -d dotfiles ]; then
-  git clone git@github.com:ntrrgc/dotfiles.git
-  cd dotfiles
-  rm ../.bashrc
-  ./install.sh
-fi
-
+  set -eu
+  cd
+  if [ ! -d dotfiles ]; then
+    git clone git@github.com:ntrrgc/dotfiles.git
+    cd dotfiles
+    rm ../.bashrc
+    ./install.sh
+  fi
 USER
+
 EOF
