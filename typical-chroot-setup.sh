@@ -20,7 +20,7 @@ set -eu
 chown -R ntrrgc: /home/ntrrgc/.ssh # just in case UIDs don't match
 
 apt install -y sudo vim-nox silversearcher-ag make python binutils htop \
-  graphviz g++ perl-base locales jq time git ccache
+  graphviz g++ perl-base locales jq time git ccache tmux
 
 echo "export EDITOR=vi" > /etc/profile.d/editor.sh
 echo "export LANG='en_US.UTF-8'" > /etc/profile.d/locale.sh
