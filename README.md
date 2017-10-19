@@ -4,7 +4,7 @@ These are a few scripts I use for creating and installing schroot environments.
 
 1. Clone this repository somewhere.
 
-2. Edit `schroot/schroot.conf` in order to set a name for the chroot, give your user permission rights and so on.
+2. Edit `schroot-config/schroot.conf` in this repo in order to set a name for the chroot, give your user permission rights and so on.
 
 3. Use debootstrap to install something Debian-based.
 
