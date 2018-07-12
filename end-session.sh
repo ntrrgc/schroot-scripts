@@ -8,3 +8,5 @@ schroot --end-session -c "$NAME-session" || (
   sudo rmdir /var/lib/schroot/mount/ntrrgc-webkit-session/ || true
   sudo rm /var/lib/schroot/session/ntrrgc-webkit-session
 )
+
+rm -f ~/.schroot-webkit-session-opened /tmp/.schroot-webkit-session-working

@@ -15,3 +15,6 @@ EOF
 # Make /dev/shm world-writable inside the chroot.
 # devtmpfs mounts may start out with the shm directory as read only.
 sudo chmod 777 "$DIR/chroot/dev/shm"
+
+touch ~/.schroot-webkit-session-opened
+touch /tmp/.schroot-webkit-session-working
